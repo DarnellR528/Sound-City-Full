@@ -1,0 +1,507 @@
+/* ABOUT SECTION */
+body {
+  overflow-x: hidden;
+}
+
+.nav-container {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 80%;
+  height: 20px;
+}
+
+/* ABOUT SECTION */
+.about_container {
+  width: 100%
+}
+
+.sidebar {
+  background-color: white;
+  float: left;
+  height: 2000px;
+  width: 10%;
+}
+
+.about_section {
+  background-color: white;
+  float: right;
+  height: 2000px;
+  padding-top: 45px;
+  width: 90%;
+}
+
+.sidelist-nav {
+  list-style: none;
+  font-size: 1.1rem;
+  padding-top: 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.sidelist-nav-item {
+  padding: 20px 0;
+}
+
+.sidelist-nav-item-link {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+.sidelist-nav-item-link:hover {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.nav_active {
+  border-bottom: 3px solid;
+}
+
+.about_title {
+  color: #000000;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3rem;
+  margin: 35px 0 10px 0;
+  padding-left: 100px;
+}
+
+.about_subtitle {
+  color: #929aab;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
+  margin: 10px 0 30px 0;
+  padding-left: 100px;
+}
+
+.about_paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  padding-right: 800px;
+  padding-left: 100px;
+}
+
+.about_icon_section {
+  width: 100%;
+  height: 100px;
+  margin: 75px 0 0 100px;
+}
+
+.about_icon {
+  float: left;
+  width: 100px;
+  height: 34px;
+  padding-right: 75px;
+}
+
+.about_mockup {
+  position: absolute;
+  margin: 0 65rem;
+}
+
+.about_mockup_img {
+  width: 550px;
+}
+
+/* PLANS SECTION */
+.plan_container {
+  width: 100%;
+}
+
+.plan_section_1 {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.plan_section_2 {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.plan_section_3 {
+  margin: 0 auto;
+  width: 1350px;
+  clear: both;
+}
+
+.plan_section_1_title {
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 4rem;
+  margin: 0;
+  width: 550px;
+  padding: 100px 0 25px;
+}
+
+.plan_section_2_title {
+  color: #190121;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3.5rem;
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+
+.plan_section_3_title {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+
+.plan_section_1_subtitle {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  margin: 0;
+  width: 550px;
+}
+
+.plan_button1 {
+  background-color: #86dc5d;
+  color: #190121;
+  text-decoration: none;
+  padding: 0 50px;
+  font-size: 1.2rem;
+  margin: 50px 0;
+  width: 175px;
+  border: 1px solid;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.plan_button1:hover {
+  border: 1px solid #86dc5d;
+  background-color: rgba(0, 0, 0, 0);
+  color: #86dc5d;
+}
+
+.plan_button2 {
+  color: #86dc5d;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0 50px;
+  font-size: 1.2rem;
+  margin: 50px 0;
+  width: 175px;
+  border: 1px solid #86dc5d;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.plan_button2:hover {
+  background-color: #86dc5d;
+  color: #190121;
+}
+
+.plan_why {
+  overflow: hidden;
+}
+
+.why_box {
+  border-radius: 50px;
+  float: left;
+  height: 400px;
+  width: 300px;
+  margin: 80px 50px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.why_box_content {
+  height: 150px;
+  margin: 0 auto;
+  background-image: url(/img/ad_free.png);
+  text-align: center;
+}
+
+.why_box_img {
+  padding: 20px 0;
+}
+
+.why_box_h3 {
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+}
+
+.why_box_p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.pricing_area {
+  margin: 50px auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.pricing_box_left {
+  width: 350px;
+  height: 600px;
+  margin: 10px;
+  background-color: white;
+  float: left;
+  border-radius: 20px;
+}
+
+.pricing_box_special {
+  width: 500px;
+  height: 600px;
+  margin: 50px 50px;
+  background-color: white;
+  float: left;
+  border-radius: 20px;
+  box-shadow: 0 0 #86dc5d;
+  box-shadow: 1px 1px 50px #86dc5d;
+}
+
+.pricing_box_right {
+  width: 350px;
+  height: 600px;
+  margin: 10px;
+  background-color: white;
+  float: right;
+  border-radius: 20px;
+}
+
+.pricing_title {
+  background-color: #86dc5d;
+  border-radius: 20px 20px 0 0;
+  margin: 0;
+  padding: 30px 0 30px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3.5rem;
+}
+
+.price {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.2rem;
+  margin: 45px 0 55px;
+}
+
+.rewards {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1rem;
+  margin: 20px 0 20;
+}
+
+/* ADS SECTION */
+.ad_bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.ad_container {
+  float: right;
+  width: 1100px;
+  height: 1000px;
+  background-color: white;
+}
+
+.ad_tittle {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 175px 0 0 125px;
+  font-size: 4rem;
+  width: 500px;
+}
+
+.ad_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  width: 600px;
+  margin: 20px 0 0 200px;
+}
+
+.ad_button {
+  margin: 25px 0 0 125px;
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  display: inline-block;
+  background-color: #190121;
+  padding: 25px 50px;
+  border-radius: 50px;
+}
+
+/* CAREERS SECTION */
+.career_bg {
+  position: absolute;
+  z-index: -1;
+}
+
+.career_title {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  margin: 100px 0 100px;
+  color: white;
+}
+
+.career_title2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #86dc5d;
+  padding: 50px 0;
+}
+
+.careers_container {
+  margin: 0;
+  height: 800px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.career-box-section {
+  margin: 0 auto;
+  width: 1250px;
+}
+
+.career-box {
+  margin: 0 55px;
+  width: 300px;
+  height: 400px;
+  float: left;
+  text-align: center;
+}
+
+.career-box-title {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
+}
+
+.career-box-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.privacy_container {
+  background-color: white;
+}
+
+.terms_container {
+  background-color: white;
+}
+
+/* signup/signin */
+.sign-bg {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.signin_container {
+  width: 1200px;
+  overflow: hidden;
+  background-color: red;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+
+
+.form-container {
+  margin: 10px;
+  padding: 30px;
+  max-width: 600px;
+  background: white;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 100px 0;
+  max-width: 600px;
+  /* background: white; */
+  box-sizing: border-box;
+}
+
+.container2 {
+  margin: 0 auto;
+  padding: 25px 0;
+  max-width: 600px;
+  /* background: white; */
+  box-sizing: border-box;
+}
+
+.form-container .head {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2rem;
+}
+
+.Inputs {
+  padding-top: 50px;
+}
+
+form {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  line-height: 30px;
+  font-size: 1.2rem
+}
+
+input {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 5px;
+  background: #86dc5d;
+  border: hidden;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.signup {
+  margin: 20px;
+  text-align: center;
+  color: white;
+  /* font-weight: bold; */
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.signup a {
+  color: #86dc5d;
+}
+
+
+
+.plan_img{
+  position: absolute;
+  margin: 50px  0 0 650px;
+}
+.ad_img{
+  position: absolute;
+  margin: 75px  0 0 500px;
+}
